@@ -1,0 +1,8 @@
+brokers: 
+  - 134.79.23.189:9094
+group_id: "prod-dp2-prep"
+num_messages: 50
+butler_repo: /sdf/data/rubin/repo/dp2_prep
+topics:
+  SLAC_BUTLER_DISK-dp2_prep:
+    rucio_prefix: davs://sdfdtn005.slac.stanford.edu:1094/lsst/butlerdisk/rucio/repo/dp2_prep/
