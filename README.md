@@ -24,7 +24,7 @@ Obtain a token to access the secrets in vault:
 ```
 # obtain token to access secrets
 export VAULT_ADDR=https://vault.slac.stanford.edu
-vault login -method ldap -username <username>
+vault login -method=ldap 
 ```
 
 Apply the Kubernetes manifests:
