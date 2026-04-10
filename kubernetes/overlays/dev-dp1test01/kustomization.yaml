@@ -1,0 +1,23 @@
+images:
+- name: ghcr.io/lsst-dm/ctrl_ingestd
+  newTag: "2.4"
+
+namespace: dev-dp1test01
+
+replicas:
+- name: ingestd
+  count: 1
+
+resources:
+- ../../common
+- ns.yaml
+
+configMapGenerator:
+- name: ingestd-config
+  files:
+  - ingestd.yml
+secretGenerator:
+- name: postgres
+  files:
+  - postgres-user=etc/.secrets/user
+  - postgres-password=etc/.secrets/password

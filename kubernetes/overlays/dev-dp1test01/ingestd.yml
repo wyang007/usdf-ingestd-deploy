@@ -1,0 +1,16 @@
+brokers: 
+  - 134.79.23.202:9094
+
+group_id: "dev-dp1test01"
+
+num_messages: 50
+
+#
+# instrument: lsst.obs.subaru.HyperSuprimeCam
+#
+#
+butler_repo: /sdf/data/rubin/rses/lsst/testdisk/rucio/dp1test01
+
+topics:
+  SLAC_TEST_DISK-dp1test01:
+    rucio_prefix: davs://sdfdtn005.slac.stanford.edu:1094/lsst/testdisk/rucio/dp1test01/
