@@ -1,6 +1,6 @@
 images:
 - name: ghcr.io/lsst-dm/ctrl_ingestd
-  newTag: "2.4"
+  newTag: "2.5"
 
 namespace: dev-dp1test01
 
