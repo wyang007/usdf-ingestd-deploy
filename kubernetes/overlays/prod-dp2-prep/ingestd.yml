@@ -1,7 +1,7 @@
 brokers: 
   - 134.79.23.189:9094
 group_id: "prod-dp2-prep"
-num_messages: 100
+num_messages: 200
 butler_repo: /sdf/data/rubin/repo/dp2_prep
 topics:
   SLAC_BUTLER_DISK-dp2_prep:
